@@ -56,7 +56,7 @@ spec:
               name: catalog-database
         # image: quay.io/redhat-gpte/globex-catalog-database:app-mod-workshop
         image: huitingyeong/demo-database:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: catalog-database
         ports:
         - containerPort: 5432
